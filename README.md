@@ -1,4 +1,5 @@
-# MentorConnect
+# MentorConnect — Student Mentor Collaboration Platform
+
 
 ## Overview
 
@@ -212,7 +213,7 @@ git clone https://github.com/Vaisali7002/MentorConnect.git
 Move into project folder
 
 ```bash
-cd mentorconnect
+cd MentorConnect
 ```
 
 Run application
