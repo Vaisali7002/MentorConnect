@@ -1,0 +1,77 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="container">
+
+    <h2>Mentorship Requests Dashboard</h2>
+
+    <table>
+
+        <tr>
+            <th>Email</th>
+            <th>Category</th>
+            <th>Priority</th>
+            <th>Meeting Date</th>
+            <th>Message</th>
+            <th>status</th>
+            <th>Actions</th>
+        </tr>
+
+        {% for request in requests %}
+
+        <tr>
+            <td>{{ request["student_email"] }}</td>
+            <td>{{ request["category"] }}</td>
+            <td>{{ request["priority"] }}</td>
+            <td>{{ request["meeting_date"] }}</td>
+            <td>{{ request["message"] }}</td>
+            <td>
+
+    {% if request["status"] == "pending" %}
+
+        🟡 Pending
+
+    {% elif request["status"] == "accepted" %}
+
+        🟢 Accepted
+
+    {% else %}
+
+        🔴 Rejected
+
+    {% endif %}
+
+</td>
+            <td>
+
+    {% if request["status"] == "pending" %}
+
+        <a href="/accept/{{ request['id'] }}">
+
+            Accept
+
+        </a>
+
+        <a href="/reject/{{ request['id'] }}">
+
+            Reject
+
+        </a>
+
+    {% else %}
+
+        Decision Taken
+
+    {% endif %}
+
+</td>
+        </tr>
+
+        {% endfor %}
+
+    </table>
+
+</div>
+
+{% endblock %}

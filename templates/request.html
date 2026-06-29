@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="container">
+
+    <h2>Request Mentorship</h2>
+
+    <form method="POST">
+
+        <input
+            type="email"
+            name="student_email"
+            placeholder="Enter your email"
+            required
+        >
+
+        <select name="category">
+
+            <option>Internship Guidance</option>
+
+            <option>Resume Review</option>
+
+            <option>Placement Preparation</option>
+
+            <option>Higher Studies</option>
+
+        </select>
+
+        <select name="priority">
+
+            <option>High</option>
+
+            <option>Medium</option>
+
+            <option>Low</option>
+
+        </select>
+
+        <input
+            type="date"
+            name="meeting_date"
+            required
+        >
+
+        <textarea
+            name="message"
+            rows="5"
+            placeholder="Describe what help you need"
+            required
+        ></textarea>
+
+        <button type="submit">
+
+            Submit Request
+
+        </button>
+
+    </form>
+
+</div>
+
+{% endblock %}

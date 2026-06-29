@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="container">
+
+    <h2>My Requests</h2>
+
+    <a href="/request">
+        <button>Create New Request</button>
+    </a>
+
+    <br><br>
+
+    <table>
+
+        <tr>
+            <th>Category</th>
+            <th>Priority</th>
+            <th>Meeting Date</th>
+            <th>Status</th>
+        </tr>
+
+        {% for request in requests %}
+
+        <tr>
+
+            <td>{{ request["category"] }}</td>
+
+            <td>{{ request["priority"] }}</td>
+
+            <td>{{ request["meeting_date"] }}</td>
+            <td>{{ request["status"] }}</td>
+
+           
+
+   
+        </tr>
+
+        {% endfor %}
+
+    </table>
+
+</div>
+
+{% endblock %}
