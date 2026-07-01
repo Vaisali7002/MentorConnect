@@ -37,6 +37,9 @@ The project focuses on solving real-world mentorship coordination challenges thr
 
 ![Mentor Dashboard](screenshots/mentor_dashboard.png)
 
+## Register Mentor
+
+![Register Mentor](screenshots/register mentor.png)
 
 
 ## Core Objective
