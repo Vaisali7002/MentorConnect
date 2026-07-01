@@ -19,23 +19,23 @@ The project focuses on solving real-world mentorship coordination challenges thr
 
 ### Home Page
 
-![Home](mentorconnect/screenshots/home.png)
+![Home](screenshots/home.png)
 
 ### Registration Page
 
-![Register](mentorconnect/screenshots/register.png)
+![Register](screenshots/register.png)
 
 ### Login Page
 
-![Login](mentorconnect/screenshots/login.png)
+![Login](screenshots/login.png)
 
 ### Student Dashboard
 
-![Student Dashboard](mentorconnect/screenshots/student_dashboard.png)
+![Student Dashboard](screenshots/student_dashboard.png)
 
 ### Mentor Dashboard
 
-![Mentor Dashboard](mentorconnect/screenshots/mentor_dashboard.png)
+![Mentor Dashboard](screenshots/mentor_dashboard.png)
 
 
 
