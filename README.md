@@ -235,3 +235,25 @@ http://127.0.0.1:5000
 MentorConnect demonstrates the implementation of a scalable mentorship management workflow by combining authentication systems, database-driven request management, role-based access control, session handling, and dynamic dashboard interfaces into a unified web application.
 
 The project focuses on solving real-world mentorship coordination challenges through structured digital interaction between students and mentors.
+## Application Preview
+
+### Home Page
+
+![Home](screenshots/home.png)
+
+### Registration Page
+
+![Register](screenshots/register.png)
+
+### Login Page
+
+![Login](screenshots/login.png)
+
+### Student Dashboard
+
+![Student Dashboard](screenshots/student_dashboard.png)
+
+### Mentor Dashboard
+
+![Mentor Dashboard](screenshots/mentor_dashboard.png)
+
