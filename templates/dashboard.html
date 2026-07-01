@@ -26,24 +26,9 @@
             <td>{{ request["priority"] }}</td>
             <td>{{ request["meeting_date"] }}</td>
             <td>{{ request["message"] }}</td>
+            <td>{{ request["status"] }}</td>
             <td>
 
-    {% if request["status"] == "pending" %}
-
-        🟡 Pending
-
-    {% elif request["status"] == "accepted" %}
-
-        🟢 Accepted
-
-    {% else %}
-
-        🔴 Rejected
-
-    {% endif %}
-
-</td>
-            <td>
 
     {% if request["status"] == "pending" %}
 
