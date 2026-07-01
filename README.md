@@ -19,27 +19,27 @@ The project focuses on solving real-world mentorship coordination challenges thr
 
 ### Home Page
 
-![Home](screenshots/home.png)
+![Home](screenshots/home.PNG)
 
 ### Registration Page
 
-![Register](screenshots/register.png)
+![Register](screenshots/register.PNG)
 
 ### Login Page
 
-![Login](screenshots/login.png)
-
-### Student Dashboard
-
-![Student Dashboard](screenshots/student_dashboard.png)
+![Login](screenshots/login.PNG)
 
 ### Mentor Dashboard
 
-![Mentor Dashboard](screenshots/mentor_dashboard.png)
+![Mentor Dashboard](screenshots/mentor dashboard.png)
 
-## Register Mentor
+### Student Dashboard
 
-![Register Mentor](screenshots/register mentor.png)
+![Student Dashboard](screenshots/student dashboard.png)
+
+### Mentor Registration Page
+
+![Mentor Register](screenshots/register mentor.PNG)
 
 
 ## Core Objective
